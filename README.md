@@ -1,6 +1,8 @@
-# trybe-exercicios
+# Trybe
 
-## Repositórios de exercícios realizados durante o curso da Trybe.
+## Este repositório contém todas as atividades de aprendizagem desenvolvidas por mim, Gustavo Leckar, enquanto estudava na Trybe.
 
-Added a folder for each of the course modules.
+_Histórico de atualizações:_
+
+- Added a folder for each of the course modules;
 

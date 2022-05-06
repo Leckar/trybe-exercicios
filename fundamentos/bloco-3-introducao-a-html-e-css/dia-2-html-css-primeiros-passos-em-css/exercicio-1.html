@@ -4,18 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Teste de CSS parte 1</title>
 	<style>
-
+		/* Abaixo vemos alteração na cor da fonte, tamanho da fonte e cor do plano de fundo. Além de utilização de Ids e Classes */
 		h1{ 
 			color: orange;
-			font-size: 65px;
+			font-family: sans-serif;
+			font-size: 4em;
+			text-decoration: underline;
+			text-decoration-color: white;
 		}
-
+		/* Unidades de medida: px é pixel; em é uma proporção do tamanho do body */
 		h2 {
 			color: gray;
 		}
 
 		body {
+			font-family: monospace;			
 			background-color: rebeccapurple;
+			font-size: 16px;
 		}
 		
 		#rdm {
@@ -25,14 +30,40 @@
 
 		#ltm {
 			background-color: rgb(9, 136, 227);
+			font-weight: 600;
+			font-size: 3em;
+			text-align: end;
 		}
 
 		.gangsta-style {
 			background-color: greenyellow;
+			font-style: italic;
 		}
 
 		.list-style {
 			background-color: green;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		li {
+			background-color: wheat;
+		}
+
+		#cor1 {
+			background-color: blue;
+		}
+
+		#cor2 {
+			background-color: red;
+		}
+
+		#cor3 {
+			background-color: rgb(191, 4, 179);
+		}
+
+		#teste {
+			color: red;
 		}
 	</style>
 </head>
@@ -44,7 +75,7 @@
 	<!--Subtitulo-->
 	<h2>XABLAU!</h2>
 	
-	<p class="gangsta-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident iure ut assumenda quidem? Ipsam nam nobis nihil? Voluptatem, eveniet ab. Optio repellat, excepturi nihil officiis incidunt officia nisi accusamus!</p>
+	<p class="gangsta-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident iure ut assumenda quidem? Ipsam nam nobis nihil? Voluptatem, eveniet ab. Optio repellat, excepturi nihil officiis incidunt officia nisi <strong id="teste">accusamus!</strong></p>
 
 	<p id="ltm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt provident iure ut assumenda quidem? Ipsam nam nobis nihil? Voluptatem, eveniet ab. Optio repellat, excepturi nihil officiis incidunt officia nisi accusamus!</p>
 	
@@ -58,9 +89,9 @@
 	</ul>
 	
 	<ol class="list-style">
-		<li>xablauzin</li>
-		<li>Fade é OP</li>
-		<li>me gustan llamas</li>
+		<li id="cor1">xablauzin</li>
+		<li id="cor2">Fade é OP</li>
+		<li id="cor3">me gustan llamas</li>
 	</ol>
 
 </body>

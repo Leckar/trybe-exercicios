@@ -1,32 +1,65 @@
-/* Abaixo vemos alteração na cor da fonte, tamanho da fonte e cor do plano de fundo. Além de utilização de Ids e Classes */
-
-
-.caixa {
-  color: white;
-  display: inline-block;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: top;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.width-and-height {
-  height: 50px;
-  width: 50px;
+ol li {
+  background-color: yellow;
 }
 
-/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-.padding {
-	padding: 20px;
+ol li:nth-child(even) {
+  color: green;
 }
 
-/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-.margin {
-	margin: 30px;
+ol li:nth-child(odd) {
+  text-transform: uppercase;
 }
 
-/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-.border {
-	border: 5px;
-	border-style: solid;
-	border-color: black;
+h1, h2 {
+  color: red;
+}
+
+h1 em, h2 em {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+#xablau li:not(:nth-child(n+4)){
+  color: blue;
+}
+
+.java {
+  background-color: pink;
+}
+
+#ext-links li a:hover {
+  font-weight: bold;
+}
+
+#ext-links li a[href*="stackoverflow"] {
+  color: orange;
+}
+
+#ext-links li a[href*="w3schools"] {
+  color: green;
+}
+
+#ext-links li a[href*="mozilla"] {
+  color: black;
+}
+
+#ext-links li a[href*="devdocs"] {
+  color: yellow;
+}
+
+#ext-links li a[href*="trybe"] {
+  color: green;
 }

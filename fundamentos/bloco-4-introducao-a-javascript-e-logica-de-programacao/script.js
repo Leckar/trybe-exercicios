@@ -17,32 +17,32 @@ console.log(a%b);
 //Exercício 2
 
 switch (aBCheck) {
-  case true:
-    console.log(`A constante a é maior que a constante b.`);
-    break;
-  case false:
-    console.log(`A constante b é maior que a constante a.`);
-    break;
+case true:
+	console.log(`A constante a é maior que a constante b.`);
+	break;
+case false:
+	console.log(`A constante b é maior que a constante a.`);
+	break;
 }
 
 //Exercício 3
 
 if (a>b && a>c) {
-  console.log(`A constante a é o maior dos números.`);
+	console.log(`A constante a é o maior dos números.`);
 } else if (b>a && b>c) {
-  console.log(`A constante b é o maior dos números.`);
+	console.log(`A constante b é o maior dos números.`);
 } else {
-  console.log(`A constante c é o maior dos números.`);
+	console.log(`A constante c é o maior dos números.`);
 }
 
 //Exercício 4
 
 if (a > 0) {
-  console.log(`positive`);
+	console.log(`positive`);
 } else if (a < 0) {
-  console.log(`negative`);
+	console.log(`negative`);
 } else {
-  console.log(`zero`);
+	console.log(`zero`);
 }
 
 //Exercício 5
@@ -56,22 +56,12 @@ console.log(`O ângulo C é de ${anguloC}°.`);
 let somaAngulo = anguloA+anguloB+anguloC;
 
 if (somaAngulo == 180) {
-  console.log(`true`);
+	console.log(`true`);
 } else if (somaAngulo > 180 || somaAngulo < 180 && anguloA >= 0 && anguloB >= 0 && anguloC >= 0) {
-  console.log(`false`);
+	console.log(`false`);
 } else {
-  console.log(`Erro, algum valor é menor a zero.`)
+	console.log(`Erro, algum valor é menor a zero.`);
 }
-
-// switch (somaAngulo, anguloA, anguloB, anguloC) {
-//   case (somaAngulo == 180):
-//     console.log(`true`);
-//     break;
-//   case (somaAngulo > 180 || somaAngulo < 180 && anguloA >= 0 && anguloB >= 0 && anguloC >= 0):
-//     console.log(`false`);
-//   default:
-//     console.log(`Erro, algum valor é menor a zero.`)
-// }
 
 //Exercício 6
 
@@ -79,19 +69,19 @@ let chessPiece = 'peão';
 let chosenChessPiece = chessPiece.toLowerCase();
 
 if (chosenChessPiece === 'peão' || chosenChessPiece === 'pawn') {
-  console.log(` 1 square forward`);
+	console.log(` 1 square forward`);
 } else if (chosenChessPiece === 'bishop' || chosenChessPiece === 'bispo') {
-  console.log(`Diagonals`);
+	console.log(`Diagonals`);
 } else if (chosenChessPiece === 'rook' || chosenChessPiece === 'torre') {
-  console.log(`Forward`);
+	console.log(`Forward`);
 } else if (chosenChessPiece === 'queen' || chosenChessPiece === 'rainha') {
-  console.log(`Any direction`);
+	console.log(`Any direction`);
 } else if (chosenChessPiece === 'king' || chosenChessPiece === 'rei') {
-  console.log(`1 square in any direction`);
+	console.log(`1 square in any direction`);
 } else if (chosenChessPiece === 'knight' || chosenChessPiece === 'cavalo') {
-  console.log(`Moves in a 4 square L in any direction`);
+	console.log(`Moves in a 4 square L in any direction`);
 } else {
-  console.log(`Not a chess piece!`)
+	console.log(`Not a chess piece!`);
 }
 
 //Exercício 7
@@ -100,17 +90,17 @@ const nota = Math.round(Math.random()*100);
 console.log(`O valor da nota é ${nota}.`);
 
 if (nota>=90) {
-  console.log(`A nota é A.`);
+	console.log(`A nota é A.`);
 } else if (nota>=80) {
-  console.log(`A nota é B.`);
+	console.log(`A nota é B.`);
 } else if (nota>=70) {
-  console.log(`A nota é c.`);
+	console.log(`A nota é c.`);
 } else if (nota>=60) {
-  console.log(`A nota é DB.`);
+	console.log(`A nota é DB.`);
 } else if (nota>=50) {
-  console.log(`A nota é E.`);
+	console.log(`A nota é E.`);
 } else if (nota<50) {
-  console.log(`A nota é F.`);
+	console.log(`A nota é F.`);
 }
 
 //Exercício 8
@@ -123,17 +113,17 @@ const numero3 = Math.round(Math.random()*10);
 console.log(numero3);
 
 if (numero1%2==0 || numero2%2==0 || numero3%2==0) {
-  console.log(true);
+	console.log(true);
 } else {
-  console.log(false); 
+	console.log(false); 
 }
 
 //Exercício 9
 
 if (numero1%2!=0 || numero2%2!=0 || numero3%2!=0) {
-  console.log(true);
+	console.log(true);
 } else {
-  console.log(false); 
+	console.log(false); 
 }
 
 //Exercício 10
@@ -152,31 +142,31 @@ console.log(`O salário bruto é de ${salario} reais.`);
 
 function calculoSalarioLiquido(salario){
   
-  let salarioFinal = salario;
+	let salarioFinal = salario;
   
-  if (salario<=1556.94) {
-    salarioFinal = salarioFinal*0.92;
-  } else if (salario<=2594.92) {
-    salarioFinal = salarioFinal*0.91;
-  } else if (salario<=5189.92) {
-    salarioFinal = salarioFinal*0.89;
-  } else {
-    salarioFinal = salarioFinal-570.88;
-  }
+	if (salario<=1556.94) {
+		salarioFinal = salarioFinal*0.92;
+	} else if (salario<=2594.92) {
+		salarioFinal = salarioFinal*0.91;
+	} else if (salario<=5189.92) {
+		salarioFinal = salarioFinal*0.89;
+	} else {
+		salarioFinal = salarioFinal-570.88;
+	}
 
-  console.log(`O salário após abatimento do INSS é de ${salarioFinal} reais`);
+	console.log(`O salário após abatimento do INSS é de ${salarioFinal} reais`);
 
-  if (salarioFinal<=1903.98) {
-    console.log(`O salário líquido é de ${Math.round(salarioFinal)} reais.`);
-  } else if (salarioFinal<=2826.65) {
-    console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.075-142.80))} reais.`);
-  } else if (salarioFinal<=3751.05) {
-    console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.15-354.80))} reais.`);
-  } else if (salarioFinal<=4664.68) {
-    console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.225-636.13))} reais.`);
-  } else {
-    console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.275-869.36))} reais.`);
-  }
+	if (salarioFinal<=1903.98) {
+		console.log(`O salário líquido é de ${Math.round(salarioFinal)} reais.`);
+	} else if (salarioFinal<=2826.65) {
+		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.075-142.80))} reais.`);
+	} else if (salarioFinal<=3751.05) {
+		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.15-354.80))} reais.`);
+	} else if (salarioFinal<=4664.68) {
+		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.225-636.13))} reais.`);
+	} else {
+		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.275-869.36))} reais.`);
+	}
 } 
 
 calculoSalarioLiquido(salario);

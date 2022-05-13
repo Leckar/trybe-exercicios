@@ -142,31 +142,35 @@ console.log(`O salário bruto é de ${salario} reais.`);
 
 function calculoSalarioLiquido(salario){
   
-	let salarioFinal = salario;
-  
+	let salarioParcial;
+	let salarioFinal;
+
 	if (salario<=1556.94) {
-		salarioFinal = salarioFinal*0.92;
+		salarioParcial = salario*0.92;
 	} else if (salario<=2594.92) {
-		salarioFinal = salarioFinal*0.91;
+		salarioParcial = salario*0.91;
 	} else if (salario<=5189.92) {
-		salarioFinal = salarioFinal*0.89;
+		salarioParcial = salario*0.89;
 	} else {
-		salarioFinal = salarioFinal-570.88;
+		salarioParcial = salario-570.88;
+	}
+	
+	console.log(`O salário parcial após abatimento do INSS é de ${salarioParcial} reais`);
+  	
+	if (salarioParcial<=1903.98) {
+		salarioFinal = salarioParcial
+	} else if (salarioParcial<=2826.65) {
+		salarioFinal = salarioParcial*0.925+142.80;
+	} else if (salarioParcial<=3751.05) {
+		salarioFinal = salarioParcial*0.85+354.80;
+	} else if (salarioParcial<=4664.68) {
+		salarioFinal = salarioParcial*0.775+636.13;
+	} else {
+		salarioFinal = salarioParcial*0.725+869.36;
 	}
 
-	console.log(`O salário após abatimento do INSS é de ${salarioFinal} reais`);
+	console.log(`O salário líquido é de ${Math.round(salarioFinal)} reais.`);
 
-	if (salarioFinal<=1903.98) {
-		console.log(`O salário líquido é de ${Math.round(salarioFinal)} reais.`);
-	} else if (salarioFinal<=2826.65) {
-		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.075-142.80))} reais.`);
-	} else if (salarioFinal<=3751.05) {
-		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.15-354.80))} reais.`);
-	} else if (salarioFinal<=4664.68) {
-		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.225-636.13))} reais.`);
-	} else {
-		console.log(`O salário líquido é de ${Math.round(salarioFinal-(salarioFinal*0.275-869.36))} reais.`);
-	}
-} 
+}
 
 calculoSalarioLiquido(salario);

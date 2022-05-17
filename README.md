@@ -43,5 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _Projeto - Arte com Pixels_
 - [ ] 5-6: _Projeto Bônus 1 - Lista de tarefas_
-- [ ] 5-7: _Projeto Bônus 2, 3 e 4 - Meme Generator, Adivinhe a Cor e Carta Misteriosa_
+- [ ] 5-7-1: _Projeto Bônus 2 - Meme Generator_
+- [ ] 5-7-2: _Projeto Bônus 3 - Adivinhe a Cor_
+- [ ] 5-7-3: _Projeto Bônus 4 - Carta Misteriosa_
 

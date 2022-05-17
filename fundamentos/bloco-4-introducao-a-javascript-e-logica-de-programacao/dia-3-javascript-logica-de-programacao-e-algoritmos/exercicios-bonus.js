@@ -88,7 +88,7 @@ asteriskPyd(5);
 function asteriskHollowPyd(n) {
 	
 	if (n % 2 ==0 || n < 3) {
-		return console.log("Error, n must be an odd number.");		
+		return console.log("Error, n must be an odd number bigger than 3.");		
 	}
 	
 	let asteriskCount = 0;

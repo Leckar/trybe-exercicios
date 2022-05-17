@@ -88,28 +88,29 @@ asteriskPyd(5);
 function asteriskHollowPyd(n) {
 	
 	if (n % 2 ==0 || n < 3) {
-		return console.log("Error, n must be an odd number bigger than 3.");		
+		return console.log("Error, n must be an odd number equal or bigger than 3.");		
 	}
 	
 	let asteriskCount = 0;
-	
-	for (let index = 1; index <= (Math.ceil(n/2)); index += 1) {
+	const lines = Math.ceil(n/2);
+
+	for (let index = 1; index <= lines; index += 1) {
 
 		let line = '';
 				
 		for (let ind = 1; ind <= n; ind += 1) {
 			
-			if (index == 1 && ind < Math.ceil(n/2)) {
+			if (index == 1 && (ind < lines || ind > lines)) {
 				line += ' ';
-			} else if (index == 1 && ind == Math.ceil(n/2)) {
+			} else if (index == 1 && ind == lines) {
 				line += '*';
-			} else if (index == 1 && ind > Math.ceil(n/2)) {
-				line += ' ';
-			} else if (index == Math.ceil(n/2)) {
+			// } else if (index == 1 && ind > lines) {
+			// 	line += ' ';
+			 } else if (index == lines) {
 				line += '*';
-			} else if (ind < Math.ceil(n/2) - asteriskCount || ind > Math.ceil(n/2) + asteriskCount) {
+			} else if (ind < lines - asteriskCount || ind > lines + asteriskCount) {
 				line += ' ';
-			} else if (ind == Math.ceil(n/2) - asteriskCount || ind == Math.ceil(n/2) + asteriskCount) {
+			} else if (ind == lines - asteriskCount || ind == lines + asteriskCount) {
 				line += '*';
 			} else {
 				line += ' ';

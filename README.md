@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [✅] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [✅] 3-4: _HTML Semântico_
-- [✅] 3-5: _Projeto - Lessons Learned_
+- [✅] 3-5: <a href="./projetos/fundamentos/sd-023-a-project-lessons-learned">_Projeto - Lessons Learned_</a>
 
 ##### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 4-2: _JavaScript - Array e loop For_
 - [✅] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [✅] 4-4: _JavaScript - Objetos e funções_
-- [✅] 4-5: _Projeto - Playground Functions_
+- [✅] 4-5: <a href="./projetos/fundamentos/sd-023-a-project-playground-functions">_Projeto - Playground Functions_</a>
 
 ##### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 5-2: _JavaScript - Trabalhando com elementos_
 - [✅] 5-3: _JavaScript - Eventos_
 - [✅] 5-4: _JavaScript - Web Storage_
-- [✅] 5-5: _Projeto - Arte com Pixels_
-- [✅] 5-6: _Projeto Bônus 1 - Lista de tarefas_
-- [✅] 5-7-1: _Projeto Bônus 2 - Meme Generator_
-- [✅] 5-7-2: _Projeto Bônus 3 - Adivinhe a Cor_
-- [✅] 5-7-3: _Projeto Bônus 4 - Carta Misteriosa_
+- [✅] 5-5: <a href="./projetos/fundamentos/sd-023-a-project-pixels-art">_Projeto - Arte com Pixels_</a>
+- [✅] 5-6: <a href="./projetos/fundamentos/sd-023-a-project-todo-list">_Projeto Bônus 1 - Lista de tarefas_</a>
+- [✅] 5-7-1: <a href="./projetos/fundamentos/sd-023-a-project-meme-generator">_Projeto Bônus 2 - Meme Generator_</a>
+- [✅] 5-7-2: <a href="./projetos/fundamentos/sd-023-a-project-color-guess">_Projeto Bônus 3 - Adivinhe a Cor_</a>
+- [✅] 5-7-3: <a href="./projetos/fundamentos/sd-023-a-project-mistery-letter">_Projeto Bônus 4 - Carta Misteriosa_</a>
 
 ##### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 
@@ -61,7 +61,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [✅] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [✅] 7-3: _Primeiros passos em Jest_
-- [✅] 7-4: _Projeto - JavaScript Testes Unitários_
+- [✅] 7-4: <a href="./projetos/fundamentos/sd-023-a-project-js-unit-tests">_Projeto - JavaScript Testes Unitários_</a>
 
 ##### Bloco 8 - Higher Order Functions do JavaScript ES6
 
@@ -70,7 +70,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [✅] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [✅] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [✅] 8-6: _Projeto - Zoo functions_
+- [✅] 8-6: <a href="./projetos/fundamentos/sd-023-a-project-zoo-functions">_Projeto - Zoo functions_</a>
 
 ## Desenvolvimento Front-end :white_check_mark:
 

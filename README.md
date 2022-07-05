@@ -54,5 +54,36 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [✅] 6-3: _CSS Flexbox - Parte 1_
 - [✅] 6-4: _CSS Flexbox - Parte 2_
 - [✅] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto - Trybewarts_
+- [✅] 6-6: <a href="./projetos/fundamentos/sd-023-a-project-trybewarts">_Projeto - Trybewarts_</a>
+
+##### Bloco 7 - Introdução à JavaScript ES6 e Testes Unitários
+
+- [✅] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [✅] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [✅] 7-3: _Primeiros passos em Jest_
+- [✅] 7-4: _Projeto - JavaScript Testes Unitários_
+
+##### Bloco 8 - Higher Order Functions do JavaScript ES6
+
+- [✅] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [✅] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [✅] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [✅] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [✅] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [✅] 8-6: _Projeto - Zoo functions_
+
+## Desenvolvimento Front-end :white_check_mark:
+
+##### Bloco 9 - JavaScript e Testes Assíncronos
+
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [ ] 9-3: _Jest - Testes Assíncronos_
+- [ ] 9-4: _Projeto - Carrinho de Compras_
+
+##### Bloco 10 - Introdução à React
+
+- [ ] 10-1: _'Hello, world!' no React!_
+- [ ] 10-2: _Componentes React_
+- [ ] 10-3: _Projeto - Sistema Solar_
 

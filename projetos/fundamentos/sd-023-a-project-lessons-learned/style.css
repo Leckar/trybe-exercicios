@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin-top: 1vh;
+  margin-left: 1vh;
+  font-size: 16px;
+  font-family: monospace, sans-serif;
+  line-height: auto;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-image: linear-gradient(to right, rgb(137, 92, 57), rgb(122, 65, 0));
+  width: 100vh;
+  text-align: left;
+  padding-left: 15px;
+  border-radius: 25px;
+  font-size: 2em;
+  color: rgb(79, 79, 79);
+}
+
+#minha_foto {
+  padding: 5px;
+  border-radius: 25px;
+  width: 80%;
+}
+
+main , footer , nav , aside {
+  margin: 5vh;
+  padding: 5vh;
+  border: solid rgb(143, 87, 44) 2px;
+  border-radius: 25px;
+}
+
+footer {
+  margin: 0;
+  margin-left: 0;
+  background-color: rgb(122, 65, 0);
+  color: whitesmoke;
+}
+
+main {
+  margin-top: 30vh;
+}
+
+.lessons_lists {
+  margin: 1vh;
+  padding: 1vh;
+}
+
+aside {
+  text-align: left;
+  width: 30%;
+  display: flex;
+  justify-content: right;
+  margin-left: auto;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+}
+
+.lado-esquerdo , .lado-direito {
+  width: 50%;
+}

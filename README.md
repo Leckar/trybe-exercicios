@@ -43,9 +43,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: <a href="./projetos/fundamentos/sd-023-a-project-pixels-art">_Projeto - Arte com Pixels_</a>
 - [x] 5-6: <a href="./projetos/fundamentos/sd-023-a-project-todo-list">_Projeto Bônus 1 - Lista de tarefas_</a>
-- [x] 5-7-1: <a href="./projetos/fundamentos/sd-023-a-project-meme-generator">_Projeto Bônus 2 - Meme Generator_</a>
-- [x] 5-7-2: <a href="./projetos/fundamentos/sd-023-a-project-color-guess">_Projeto Bônus 3 - Adivinhe a Cor_</a>
-- [x] 5-7-3: <a href="./projetos/fundamentos/sd-023-a-project-mistery-letter">_Projeto Bônus 4 - Carta Misteriosa_</a>
+- [x] 5-7.1: <a href="./projetos/fundamentos/sd-023-a-project-meme-generator">_Projeto Bônus 2 - Meme Generator_</a>
+- [x] 5-7.2: <a href="./projetos/fundamentos/sd-023-a-project-color-guess">_Projeto Bônus 3 - Adivinhe a Cor_</a>
+- [x] 5-7.3: <a href="./projetos/fundamentos/sd-023-a-project-mistery-letter">_Projeto Bônus 4 - Carta Misteriosa_</a>
 
 ##### Bloco 6 - HTML e CSS: Forms, Flexbox e Responsivo
 
